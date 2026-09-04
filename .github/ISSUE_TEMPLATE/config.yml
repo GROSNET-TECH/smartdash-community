@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Ask a question
+    url: https://github.com/GROSNET-TECH/smartdash-community/discussions/categories/q-a
+    about: For "how do I…" questions, use Discussions Q&A instead of an issue.
+  - name: 📖 Documentation
+    url: https://getsmartdash.com/docs
+    about: Check the docs — your question might already be answered there.
+  - name: ✉️ Account or billing help
+    url: mailto:support@getsmartdash.com
+    about: Email support. This is the guaranteed channel; issues here are best-effort.
