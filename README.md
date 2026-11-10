@@ -9,19 +9,15 @@ no account needed.
      files are not interchangeable: each carries the wordmark ink for its own
      background, and both are transparent. -->
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="media/build-flow-dark.webp">
-    <img alt="Building a Smart Dash dashboard: add a source, name a tag, drop a widget, tap Run." src="media/build-flow-light.webp" width="340">
-  </picture>
+    <!-- <source media="(prefers-color-scheme: dark)" srcset="media/build-flow-dark.webp"> -->
+    <img alt="Building a Smart Dash dashboard: add a source, name a tag, drop a widget, tap Run." src="media/build-flow-dark.webp#gh-dark-mode-only" width="340">
+    <img alt="Building a Smart Dash dashboard: add a source, name a tag, drop a widget, tap Run." src="media/build-flow-light.webp#gh-light-mode-only" width="340">
 </p>
 
-<!-- Plain platform glyphs, not Apple's "Download on the App Store" or Google's
-     "Get it on Google Play" artwork: those are licensed for linking to a live
-     listing. Swap in the official badges, as links, once both are published. -->
 <p align="center">
-  <img alt="Coming soon on the App Store" src="https://img.shields.io/badge/Coming%20soon%20on-App%20Store-6a737d?style=for-the-badge&logo=apple&logoColor=white">
+  <a href="https://apps.apple.com/app/smart-dash-iot-dashboards/id6752015373"><img alt="Download on the App Store" src="https://img.shields.io/badge/Download%20on%20the-App%20Store-000000?style=for-the-badge&logo=apple&logoColor=white"></a>
   &nbsp;&nbsp;
-  <img alt="Coming soon on Google Play" src="https://img.shields.io/badge/Coming%20soon%20on-Google%20Play-6a737d?style=for-the-badge&logo=googleplay&logoColor=white">
+  <a href="https://play.google.com/store/apps/details?id=com.grosnettech.smartdash"><img alt="Get it on Google Play" src="https://img.shields.io/badge/Get%20it%20on-Google%20Play-000000?style=for-the-badge&logo=googleplay&logoColor=white"></a>
 </p>
 
 A source, a tag, a widget, and a dashboard reading live data: that is the whole model.
